@@ -1,0 +1,40 @@
+# Private parts of the research code (not released)
+/baselines/
+/analysis/
+/visualization/
+/docs/
+/notes/
+/latex/
+
+# Local Python environment and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and agent folders
+/.vscode/
+/.idea/
+/.claude/
+/.agents/
+/.codex/
+
+# Inputs and generated outputs (symlinks included)
+/models
+/store
+/artifacts/
+/datasets/
+/outputs/
+/results/
+/logs/
+/data/
+*.log
